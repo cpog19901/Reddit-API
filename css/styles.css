@@ -1,0 +1,60 @@
+html{
+    margin: 0;
+}
+
+h1{
+    margin: 0;
+    font-family: 'Cabin Sketch', cursive;
+    color:#fc4103;
+}
+
+body{
+    text-align: center;
+    margin: 0;
+    background: rgb(219,38,10);
+    background: linear-gradient(90deg, rgba(219,38,10,1) 0%, rgba(115,0,245,1) 49%, rgba(126,12,156,1) 100%);
+    padding: 4%;
+    background-image: url("../images/bg.svg");
+    background-size: cover;
+    
+    
+}
+
+#outer-container{
+    width: 100%;
+    padding: 2%;
+}
+
+#input-container{ 
+    filter: drop-shadow(0 0 2rem #888888);
+    padding: 3%;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+   -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);
+   box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.05);;
+   border-radius: 5px;
+}
+
+#input-sub{
+    margin-top: 2%;
+    padding: 1.5% 0.5%;
+    width: 400px;
+    margin: 2% auto;
+}
+
+.reddit-image{
+    height: 250px;
+    width: 250px;
+    margin: 2% 1% 0 auto;
+    border: 1px solid white;
+    
+}
+
+
+#reddit-container{
+    width: 100%;
+    padding:1%;
+    /* display: none; */
+}
